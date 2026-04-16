@@ -1,0 +1,19 @@
+# https://elyanlabs.ai/robots.txt
+# Elyan Labs - Robots.txt
+
+User-agent: *
+Allow: /
+
+# Block scrapers and bad bots
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: dotbot
+User-agent: Screaming Frog
+Disallow: /
+
+# Sitemap
+Sitemap: https://elyanlabs.ai/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
